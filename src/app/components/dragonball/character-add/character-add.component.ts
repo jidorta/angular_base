@@ -6,8 +6,7 @@ import { Character } from '../../../interfaces/character.interfaces';
   templateUrl: './character-add.component.html',
 })
 export class CharacterAddComponent {
-[x: string]: any;
-  name = signal ('');
+  name = signal('');
   power = signal(0);
 
   newCharacter = output<Character>();
